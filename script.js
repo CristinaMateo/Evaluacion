@@ -37,6 +37,6 @@ function contar(){
      return resultado
 
 }
-
+console.log(contar())
 
  
