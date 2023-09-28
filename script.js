@@ -11,7 +11,7 @@ function contarLetras(frase, letra){
       return total.length;
   }
 console.log(contarLetras(["hoja", "bote", "planta"], "a")) // expected output: 3
-console.log(contarLetras("Se mE han ColadO los Espaguetis en El dEsagüe", "e")) //expected output: 8
+console.log(contarLetras("Se mE han ColadO los Espaguetis en El dEsagüe", "e")) //eSxpected output: 8
 console.log(contarLetras("en este no hay nada que buscar", "f"))// espected output: 0
 console.log(contarLetras("no uppercase in here", "E"))//expected output: 4
 
@@ -28,8 +28,6 @@ function contar(){
      while(num <= masCincuenta){
        arr.push(num++)
  } 
-}
-function impares(){
  let resultado =[]
      for(i=0;i<arr.length;i++){
          if(arr[i] % 2 !== 0){
@@ -38,6 +36,7 @@ function impares(){
      }
      return resultado
 
-    }
-    console.log(impares(contar))
+}
+
+
  
