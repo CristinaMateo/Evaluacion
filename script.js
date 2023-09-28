@@ -21,14 +21,15 @@ console.log(contarLetras("no uppercase in here", "E"))//expected output: 4
 //2)Diseña un algoritmo que imprima los números impares entre un número dado por el usuario y los siguientes 50 números
 
 
-function impares(){
-    //let num = parseInt(prompt("Introduzca un número entero."));
-    let num = Math.floor(Math.random() * 1)
+function contar(){
+    num = parseInt(prompt("Introduzca un número entero."));
     let masCincuenta = (num+50)
      let arr =[]
      while(num <= masCincuenta){
        arr.push(num++)
  } 
+}
+function impares(){
  let resultado =[]
      for(i=0;i<arr.length;i++){
          if(arr[i] % 2 !== 0){
@@ -36,5 +37,7 @@ function impares(){
          }
      }
      return resultado
- }
+
+    }
+    console.log(impares(contar))
  
