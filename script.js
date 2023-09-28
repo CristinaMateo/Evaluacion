@@ -39,4 +39,4 @@ function contar(){
 }
 console.log(contar())
 
- 
+ // primero le pido al usuario un numero, añado 50 a ese numero y subo con un bucle los numeros entre num y num+50 a un array vacío. Después itero sobre ese array para saber qué números son impares y añadirlos a otro array (resultado).
